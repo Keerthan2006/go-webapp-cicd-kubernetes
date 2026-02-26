@@ -40,8 +40,6 @@ jobs:
     
     - name: Golangci-lint
       uses: golangci/golangci-lint-action@v9.2.0
-      with:
-        version: v1.50.0
 
   docker-build-and-push:
     runs-on: ubuntu-latest
