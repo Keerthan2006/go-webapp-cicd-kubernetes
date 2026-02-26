@@ -84,4 +84,4 @@ jobs:
         git config --global user.name  ${{ secrets.USERNAME }}
         git add helm/go-web-app/values.yaml
         git commit -m "Update tag in Helm chart" || echo "No changes"
-        git push origin main
+        git push
